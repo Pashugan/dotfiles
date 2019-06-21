@@ -1,0 +1,15 @@
+[submodule "vim/pack/bundle/start/molokai"]
+	path = vim/pack/bundle/start/molokai
+	url = https://github.com/tomasr/molokai.git
+[submodule "vim/pack/bundle/start/vim-sensible"]
+	path = vim/pack/bundle/start/vim-sensible
+	url = https://github.com/tpope/vim-sensible.git
+[submodule "vim/pack/bundle/start/vim-gutentags"]
+	path = vim/pack/bundle/start/vim-gutentags
+	url = https://github.com/ludovicchabant/vim-gutentags.git
+[submodule "vim/pack/bundle/start/tagbar"]
+	path = vim/pack/bundle/start/tagbar
+	url = https://github.com/majutsushi/tagbar.git
+[submodule "vim/pack/bundle/start/bufexplorer"]
+	path = vim/pack/bundle/start/bufexplorer
+	url = https://github.com/jlanzarotta/bufexplorer.git
