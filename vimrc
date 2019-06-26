@@ -35,3 +35,19 @@ imap <F2> <esc>:w<cr>i
 
 " F8 - tagbar
 nmap <F8> :TagbarToggle<cr>
+
+""" Plug-in settings
+
+set wildignore+=*/.git/*,*/.hg/*,*/.svn/*
+
+let g:gutentags_ctags_exclude = ['README']
+let g:gutentags_cache_dir = $HOME.'/.cache/gutentags'
+
+let g:ctrlp_working_path_mode = 'ra'
+let g:ctrlp_cache_dir = $HOME.'/.cache/ctrlp'
+
+if executable('ag')
+    set grepprg=ag\ --vimgrep\ $*
+    set grepformat=%f:%l:%c:%m
+    let g:ctrlp_user_command = 'ag %s -l --nocolor -g ""'
+endif
