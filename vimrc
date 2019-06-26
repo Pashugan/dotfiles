@@ -1,19 +1,20 @@
 set nocompatible
 
 "set expandtab
+set tabstop=4
 set shiftwidth=4
 set softtabstop=4
 
-set showcmd  
+set showcmd
 
 set number
 
 set foldmethod=indent
 
-set scrolljump=6
-set scrolloff=6
+set scrolljump=8
+set scrolloff=8
 
-set visualbell t_vb=   
+set visualbell t_vb=
 
 set hidden
 
@@ -23,6 +24,9 @@ nmap ; :%s/\<<c-r>=expand("<cword>")<cr>\>/
 " Indentation for blocks
 vmap < <gv
 vmap > >gv
+
+" Enter adds an empty line
+map <CR> o<Esc>k
 
 " F2 - quick save
 nmap <F2> :w<cr>
