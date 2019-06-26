@@ -46,6 +46,7 @@ let g:gutentags_cache_dir = $HOME.'/.cache/gutentags'
 let g:ctrlp_working_path_mode = 'ra'
 let g:ctrlp_cache_dir = $HOME.'/.cache/ctrlp'
 
+" See https://github.com/ggreer/the_silver_searcher
 if executable('ag')
     set grepprg=ag\ --vimgrep\ $*
     set grepformat=%f:%l:%c:%m
