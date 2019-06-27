@@ -36,9 +36,12 @@ imap <F2> <esc>:w<cr>i
 " F8 - tagbar
 nmap <F8> :TagbarToggle<cr>
 
+set wildignore+=*/.git/*,*/.hg/*,*/.svn/*
+
 """ Plug-in settings
 
-set wildignore+=*/.git/*,*/.hg/*,*/.svn/*
+let g:netrw_liststyle = 3
+let g:netrw_banner = 0
 
 let g:gutentags_ctags_exclude = ['README']
 let g:gutentags_cache_dir = $HOME.'/.cache/gutentags'
@@ -48,7 +51,8 @@ let g:ctrlp_cache_dir = $HOME.'/.cache/ctrlp'
 
 " See https://github.com/ggreer/the_silver_searcher
 if executable('ag')
-    set grepprg=ag\ --vimgrep\ $*
-    set grepformat=%f:%l:%c:%m
+    "set grepprg=ag\ --vimgrep\ $*
+    "set grepformat=%f:%l:%c:%m
+    let g:ackprg = 'ag --vimgrep'
     let g:ctrlp_user_command = 'ag %s -l --nocolor -g ""'
 endif
