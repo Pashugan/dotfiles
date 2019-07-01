@@ -9,10 +9,10 @@ set showcmd
 
 set number
 
-set foldmethod=indent
+"set foldmethod=indent
 
-set scrolljump=8
-set scrolloff=8
+set scrolljump=6
+set scrolloff=6
 
 set visualbell t_vb=
 
