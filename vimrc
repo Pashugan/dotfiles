@@ -50,6 +50,9 @@ let g:ctrlp_working_path_mode = 'ra'
 let g:ctrlp_lazy_update = 1
 let g:ctrlp_cache_dir = $HOME.'/.cache/ctrlp'
 
+let g:airline#extensions#tabline#enabled = 1
+let g:airline#extensions#tabline#buffer_nr_show = 1
+
 " See https://github.com/ggreer/the_silver_searcher
 if executable('ag')
     "set grepprg=ag\ --vimgrep\ $*
