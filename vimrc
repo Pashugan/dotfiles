@@ -47,6 +47,7 @@ let g:gutentags_ctags_exclude = ['README']
 let g:gutentags_cache_dir = $HOME.'/.cache/gutentags'
 
 let g:ctrlp_working_path_mode = 'ra'
+let g:ctrlp_lazy_update = 1
 let g:ctrlp_cache_dir = $HOME.'/.cache/ctrlp'
 
 " See https://github.com/ggreer/the_silver_searcher
