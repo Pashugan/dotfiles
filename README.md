@@ -1,12 +1,25 @@
-### My public dotfiles
+## My public dotfiles
 
-#### Pull submodules
+### Cheatsheets
 
+#### Clone with all the vim plugins
+```sh
+$ git clone --recursive https://github.com/Pashugan/dotfiles.git
 ```
-git submodule update --init --recursive
+
+#### Add a new vim plugin
+```sh
+$ git submodule add https://github.com/repo/foo.git vim/pack/bundle/start/foo
+$ cd vim/pack/bundle/start/foo
+$ git checkout v1.0-stable
 ```
 
-#### Notes
-Symlink the ctags file
-* to ~/.ctags when using Exuberant Ctags
-* to ~/.ctags.d/my.ctags when using Universal Ctags
+#### Regenerate help for all the vim plugins
+```vim
+:helptags ALL
+```
+
+#### Caveat
+The ctags file should be symlinked to
+* `~/.ctags` when using Exuberant Ctags
+* `~/.ctags.d/my.ctags` when using [Universal Ctags](https://github.com/universal-ctags/ctags)
