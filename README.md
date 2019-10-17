@@ -7,6 +7,11 @@
 $ git clone --recursive https://github.com/Pashugan/dotfiles.git
 ```
 
+#### Update all the vim plugins
+```sh
+$ git submodule update --init --recursive
+```
+
 #### Add a new vim plugin
 ```sh
 $ git submodule add https://github.com/repo/foo.git vim/pack/bundle/start/foo
