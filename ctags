@@ -1,1 +1,3 @@
 --PHP-kinds=+cfit-va
+--map-JavaScript=+.jsx
+--map-TypeScript=+.tsx
