@@ -24,7 +24,14 @@ $ git checkout v1.0-stable
 :helptags ALL
 ```
 
-#### Caveat
+#### Run synergy client on boot
+```sh
+$ systemctl --user daemon-reload
+$ systemctl --user enable synergyc
+$ systemctl --user start synergyc
+```
+
+#### Caveats
 The ctags file should be symlinked to
 * `~/.ctags` when using Exuberant Ctags
 * `~/.ctags.d/my.ctags` when using [Universal Ctags](https://github.com/universal-ctags/ctags)
