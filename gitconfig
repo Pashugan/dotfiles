@@ -1,0 +1,10 @@
+[user]
+	name = Pavel Knoblokh
+	email = Pashugan@users.noreply.github.com
+[alias]
+	co = checkout
+	st = status
+	ci = commit
+	di = diff
+[core]
+	excludesfile = ~/.gitignore_global
