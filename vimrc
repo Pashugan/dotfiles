@@ -1,4 +1,7 @@
+colors molokai
+
 set nocompatible
+set mouse=a
 
 "set expandtab
 set tabstop=4

@@ -1,5 +1,4 @@
 set guifont=Menlo:h22
-colors molokai
 
 " Cmd + <- - previous buffer
 map <D-Left> :bp<cr>
