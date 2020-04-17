@@ -2,6 +2,8 @@ colors molokai
 
 set nocompatible
 set mouse=a
+set updatetime=100
+set signcolumn=yes
 
 "set expandtab
 set tabstop=4
