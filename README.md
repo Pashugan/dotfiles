@@ -1,37 +1,53 @@
 ## My public dotfiles
 
-### Cheatsheets
+### Prerequisites
 
-#### Clone with all the vim plugins
+ctags
+
+### Maintenance
+
+#### Vim
+
+##### Clone with all the vim plugins
 ```sh
 $ git clone --recursive https://github.com/Pashugan/dotfiles.git
 ```
 
-#### Update all the vim plugins
+##### Update all the vim plugins
 ```sh
 $ git submodule update --init --recursive
 ```
 
-#### Add a new vim plugin
+##### Add a new vim plugin
 ```sh
 $ git submodule add https://github.com/repo/foo.git vim/pack/bundle/start/foo
 $ cd vim/pack/bundle/start/foo
-$ git checkout v1.0-stable
+$ git checkout v1.0-stable # not recommended as release tags are rarely up-to-date
 ```
 
-#### Regenerate help for all the vim plugins
+##### Delete an existing vim plugin
+```sh
+$ git submodule deinit -f vim/pack/bundle/start/foo # remove the submodule entry from .git/config
+$ rm -rf .git/modules/vim/pack/bundle/start/foo
+$ git rm -f vim/pack/bundle/start/foo
+# Remove the submodule entry from .gitmodules
+```
+
+##### Regenerate help for all the vim plugins
 ```vim
 :helptags ALL
 ```
 
-#### Run synergy client on boot
+#### Not Vim
+
+##### Run synergy client on boot
 ```sh
 $ systemctl --user daemon-reload
 $ systemctl --user enable synergyc
 $ systemctl --user start synergyc
 ```
 
-#### Caveats
-The ctags file should be symlinked to
+### Caveats
+`ctags` needs to be symlinked to
 * `~/.ctags` when using Exuberant Ctags
 * `~/.ctags.d/my.ctags` when using [Universal Ctags](https://github.com/universal-ctags/ctags)
