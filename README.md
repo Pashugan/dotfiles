@@ -5,6 +5,8 @@
 * [Universal Ctags](https://github.com/universal-ctags/ctags) (recommended) or [Exuberant Ctags](http://ctags.sourceforge.net/)
 * [fzf](https://github.com/junegunn/fzf)
 * [ripgrep](https://github.com/BurntSushi/ripgrep)
+* vim with +python3
+* pip3 install --user pynvim
 
 ### Maintenance
 

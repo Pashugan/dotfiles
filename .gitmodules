@@ -43,3 +43,21 @@
 [submodule "vim/pack/bundle/start/fzf.vim"]
 	path = vim/pack/bundle/start/fzf.vim
 	url = https://github.com/junegunn/fzf.vim.git
+[submodule "vim/pack/bundle/start/phpactor"]
+	path = vim/pack/bundle/start/phpactor
+	url = https://github.com/phpactor/phpactor.git
+[submodule "vim/pack/bundle/start/deoplete.nvim"]
+	path = vim/pack/bundle/start/deoplete.nvim
+	url = https://github.com/Shougo/deoplete.nvim.git
+[submodule "vim/pack/bundle/start/deoplete-phpactor"]
+	path = vim/pack/bundle/start/deoplete-phpactor
+	url = https://github.com/kristijanhusak/deoplete-phpactor.git
+[submodule "vim/pack/bundle/start/phpactor-mappings"]
+	path = vim/pack/bundle/start/phpactor-mappings
+	url = https://github.com/elythyr/phpactor-mappings.git
+[submodule "vim/pack/bundle/start/nvim-yarp"]
+	path = vim/pack/bundle/start/nvim-yarp
+	url = https://github.com/roxma/nvim-yarp.git
+[submodule "vim/pack/bundle/start/vim-hug-neovim-rpc"]
+	path = vim/pack/bundle/start/vim-hug-neovim-rpc
+	url = https://github.com/roxma/vim-hug-neovim-rpc.git

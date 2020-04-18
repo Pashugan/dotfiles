@@ -75,3 +75,10 @@ set rtp+=/usr/local/opt/fzf
 
 " vim-bbye mappings
 :nnoremap <Leader>q :Bdelete<CR>
+
+let g:deoplete#enable_at_startup = 1
+
+let g:phpactorActivateOverlapingMappings = v:true
+let g:phpactorInputListStrategy = 'phpactor#input#list#fzf'
+let g:phpactorQuickfixStrategy = 'phpactor#quickfix#fzf'
+autocmd FileType cucumber setlocal omnifunc=phpactor#Complete
