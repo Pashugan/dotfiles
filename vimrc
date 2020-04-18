@@ -63,5 +63,7 @@ if executable('ag')
     "set grepprg=ag\ --vimgrep\ $*
     "set grepformat=%f:%l:%c:%m
     let g:ackprg = 'ag --vimgrep'
+    " Do not open the first file found
+    cnoreabbrev Ack Ack!
     let g:ctrlp_user_command = 'ag %s -l --nocolor -g ""'
 endif
