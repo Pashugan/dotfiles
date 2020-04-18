@@ -41,6 +41,7 @@ imap <F2> <esc>:w<cr>i
 " F8 - tagbar
 nmap <F8> :TagbarToggle<cr>
 
+set wildmode=longest,list,full
 set wildignore+=*/.git/*,*/.hg/*,*/.svn/*
 
 """ Plug-in settings
