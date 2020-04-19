@@ -37,3 +37,6 @@
 [submodule "vim/pack/bundle/start/vim-signify"]
 	path = vim/pack/bundle/start/vim-signify
 	url = https://github.com/mhinz/vim-signify.git
+[submodule "vim/pack/bundle/start/vim-bbye"]
+	path = vim/pack/bundle/start/vim-bbye
+	url = https://github.com/moll/vim-bbye.git

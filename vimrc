@@ -68,3 +68,6 @@ if executable('ag')
     cnoreabbrev Ack Ack!
     let g:ctrlp_user_command = 'ag %s -l --nocolor -g ""'
 endif
+
+" vim-bbye mappings
+:nnoremap <Leader>q :Bdelete<CR>
