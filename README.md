@@ -2,8 +2,9 @@
 
 ### Prerequisites
 
-* `ctags`
-* `fzf`
+* [Universal Ctags](https://github.com/universal-ctags/ctags) (recommended) or [Exuberant Ctags](http://ctags.sourceforge.net/)
+* [fzf](https://github.com/junegunn/fzf)
+* [ripgrep](https://github.com/BurntSushi/ripgrep)
 
 ### Maintenance
 
