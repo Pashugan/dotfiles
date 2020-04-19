@@ -2,7 +2,8 @@
 
 ### Prerequisites
 
-ctags
+* `ctags`
+* `fzf`
 
 ### Maintenance
 

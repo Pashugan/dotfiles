@@ -69,5 +69,7 @@ if executable('ag')
     let g:ctrlp_user_command = 'ag %s -l --nocolor -g ""'
 endif
 
+set rtp+=/usr/local/opt/fzf
+
 " vim-bbye mappings
 :nnoremap <Leader>q :Bdelete<CR>

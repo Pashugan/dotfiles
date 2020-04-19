@@ -40,3 +40,6 @@
 [submodule "vim/pack/bundle/start/vim-bbye"]
 	path = vim/pack/bundle/start/vim-bbye
 	url = https://github.com/moll/vim-bbye.git
+[submodule "vim/pack/bundle/start/fzf.vim"]
+	path = vim/pack/bundle/start/fzf.vim
+	url = https://github.com/junegunn/fzf.vim.git
