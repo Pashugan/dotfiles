@@ -22,6 +22,7 @@ set scrolloff=6
 set visualbell t_vb=
 
 set hidden
+set noswapfile
 
 " Search and replace the word under the cursor
 nmap ; :%s/\<<c-r>=expand("<cword>")<cr>\>/
@@ -37,6 +38,7 @@ map <CR> o<Esc>k
 nmap <F2> :w<cr>
 vmap <F2> <esc>:w<cr>i
 imap <F2> <esc>:w<cr>i
+noremap <Leader>s :update<CR>
 
 " F8 - tagbar
 nmap <F8> :TagbarToggle<cr>
@@ -55,6 +57,7 @@ let g:gutentags_cache_dir = $HOME.'/.cache/gutentags'
 let g:ctrlp_working_path_mode = 'ra'
 let g:ctrlp_lazy_update = 1
 let g:ctrlp_cache_dir = $HOME.'/.cache/ctrlp'
+let g:ctrlp_extensions = ['tag']
 
 let g:airline#extensions#tabline#enabled = 1
 let g:airline#extensions#tabline#buffer_nr_show = 1
