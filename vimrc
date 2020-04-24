@@ -34,10 +34,7 @@ vmap > >gv
 " Enter adds an empty line
 map <CR> o<Esc>k
 
-" F2 - quick save
-nmap <F2> :w<cr>
-vmap <F2> <esc>:w<cr>i
-imap <F2> <esc>:w<cr>i
+" \s - quick save
 noremap <Leader>s :update<CR>
 
 " F8 - tagbar
