@@ -1,4 +1,4 @@
-set guifont=Menlo:h22
+set guifont=JetBrains\ Mono:h20
 
 " Cmd + <- - previous buffer
 map <D-Left> :bp<cr>
