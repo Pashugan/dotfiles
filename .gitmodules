@@ -46,3 +46,6 @@
 [submodule "vim/pack/bundle/start/vim-commentary"]
 	path = vim/pack/bundle/start/vim-commentary
 	url = https://github.com/tpope/vim-commentary.git
+[submodule "vim/pack/bundle/start/YouCompleteMe"]
+	path = vim/pack/bundle/start/YouCompleteMe
+	url = https://github.com/ycm-core/YouCompleteMe.git

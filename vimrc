@@ -75,3 +75,5 @@ set rtp+=/usr/local/opt/fzf
 
 " vim-bbye mappings
 :nnoremap <Leader>q :Bdelete<CR>
+
+let g:ycm_clangd_binary_path = '/Library/Developer/CommandLineTools/usr/bin/clangd'
