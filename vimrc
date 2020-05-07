@@ -82,3 +82,8 @@ let g:phpactorActivateOverlapingMappings = v:true
 let g:phpactorInputListStrategy = 'phpactor#input#list#fzf'
 let g:phpactorQuickfixStrategy = 'phpactor#quickfix#fzf'
 autocmd FileType cucumber setlocal omnifunc=phpactor#Complete
+
+if !exists('g:vdebug_options')
+	let g:vdebug_options = {}
+endif
+"let g:vdebug_options['path_maps'] = {'/path/to/remote': '/path/to/local'}

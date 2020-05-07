@@ -61,3 +61,6 @@
 [submodule "vim/pack/bundle/start/vim-hug-neovim-rpc"]
 	path = vim/pack/bundle/start/vim-hug-neovim-rpc
 	url = https://github.com/roxma/vim-hug-neovim-rpc.git
+[submodule "vim/pack/bundle/start/vdebug"]
+	path = vim/pack/bundle/start/vdebug
+	url = https://github.com/vim-vdebug/vdebug.git
