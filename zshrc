@@ -1,7 +1,7 @@
 ulimit -n 2048
 
 export GOPATH=~/go
-export HOMEBREW_GITHUB_API_TOKEN=
+export PATH="$PATH:$GOPATH/bin"
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 export FZF_DEFAULT_COMMAND='fd -t f'
