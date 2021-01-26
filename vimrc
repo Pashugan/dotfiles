@@ -75,3 +75,5 @@ set rtp+=/usr/local/opt/fzf
 
 " vim-bbye mappings
 :nnoremap <Leader>q :Bdelete<CR>
+
+let g:polyglot_is_disabled = {}
