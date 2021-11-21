@@ -1,5 +1,7 @@
 colors molokai
 
+set guioptions+=M
+set encoding=utf8
 set nocompatible
 set mouse=a
 set updatetime=100
@@ -77,3 +79,21 @@ set rtp+=/usr/local/opt/fzf
 :nnoremap <Leader>q :Bdelete<CR>
 
 let g:polyglot_is_disabled = {}
+
+if has("gui_running")
+	if has("macunix")
+		set guifont=JetBrains\ Mono:h20
+	elseif has("gui_gtk3")
+		set guifont=JetBrains\ Mono\ 12
+	endif
+
+	" Cmd + <- - previous buffer
+	map <D-Left> :bp<cr>
+	vmap <D-Left> <esc>:bp<cr>i
+	imap <D-Left> <esc>:bp<cr>i
+
+	" Cmd + -> - next buffer
+	map <D-Right> :bn<cr>
+	vmap <D-Right> <esc>:bn<cr>i
+	imap <D-Right> <esc>:bn<cr>i
+endif
