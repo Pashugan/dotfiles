@@ -1,16 +1,18 @@
 [user]
 	name = Pavel Knoblokh
 	email = Pashugan@users.noreply.github.com
+
 [alias]
 	co = checkout
 	st = status
 	ci = commit
 	di = diff
+
 [pull]
 	rebase = true
+
 [core]
 	excludesfile = ~/.gitignore_global
-[url "git@github.com:"]
-	insteadOf = https://github.com/
+
 [include]
 	path = ~/.gitconfig_local
