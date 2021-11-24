@@ -1,5 +1,8 @@
 ulimit -n 2048
 
+bindkey '\e[H' beginning-of-line
+bindkey '\e[F' end-of-line
+
 BREW_PREFIX=$(brew --prefix)
 
 export GOPATH=~/go
