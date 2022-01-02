@@ -80,6 +80,8 @@ set rtp+=/usr/local/opt/fzf
 
 let g:polyglot_is_disabled = {}
 
+let g:ycm_clangd_binary_path = '/Library/Developer/CommandLineTools/usr/bin/clangd'
+
 if has("gui_running")
 	if has("macunix")
 		set guifont=JetBrains\ Mono:h20
