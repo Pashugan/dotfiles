@@ -8,9 +8,9 @@
 	di = diff
 [pull]
 	rebase = true
+[fetch]
+	prune = true
 [core]
 	excludesfile = ~/.gitignore_global
-[url "git@github.com:"]
-	insteadOf = https://github.com/
 [include]
-	path = ~/.gitconfig.local
+	path = ~/.gitconfig_local
