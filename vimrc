@@ -45,7 +45,25 @@ nmap <F8> :TagbarToggle<cr>
 set wildmode=longest,list,full
 set wildignore+=*/.git/*,*/.hg/*,*/.svn/*
 
-""" Plug-in settings
+if has("gui_running")
+	if has("macunix")
+		set guifont=JetBrains\ Mono:h20
+	elseif has("gui_gtk3")
+		set guifont=JetBrains\ Mono\ 12
+	endif
+
+	" Cmd + <- - previous buffer
+	map <S-Left> :bp<cr>
+	vmap <S-Left> <esc>:bp<cr>i
+	imap <S-Left> <esc>:bp<cr>i
+
+	" Cmd + -> - next buffer
+	map <S-Right> :bn<cr>
+	vmap <S-Right> <esc>:bn<cr>i
+	imap <S-Right> <esc>:bn<cr>i
+endif
+
+""" Plugins settings
 
 let g:netrw_liststyle = 3
 let g:netrw_banner = 0
@@ -63,17 +81,9 @@ let g:ctrlp_extensions = ['tag']
 let g:airline#extensions#tabline#enabled = 1
 let g:airline#extensions#tabline#buffer_nr_show = 1
 
-" See https://github.com/ggreer/the_silver_searcher
-if executable('ag')
-    "set grepprg=ag\ --vimgrep\ $*
-    "set grepformat=%f:%l:%c:%m
-    let g:ackprg = 'ag --vimgrep'
-    " Do not open the first file found
-    cnoreabbrev Ack Ack!
-    let g:ctrlp_user_command = 'ag %s -l --nocolor -g ""'
+if executable('fzf') && executable('brew')
+	let &rtp .= ','.trim(system('brew --prefix fzf'))
 endif
-
-set rtp+=/usr/local/opt/fzf
 
 " vim-bbye mappings
 :nnoremap <Leader>q :Bdelete<CR>
@@ -81,21 +91,3 @@ set rtp+=/usr/local/opt/fzf
 let g:polyglot_is_disabled = {}
 
 let g:ycm_clangd_binary_path = trim(system('which clangd'))
-
-if has("gui_running")
-	if has("macunix")
-		set guifont=JetBrains\ Mono:h20
-	elseif has("gui_gtk3")
-		set guifont=JetBrains\ Mono\ 12
-	endif
-
-	" Cmd + <- - previous buffer
-	map <D-Left> :bp<cr>
-	vmap <D-Left> <esc>:bp<cr>i
-	imap <D-Left> <esc>:bp<cr>i
-
-	" Cmd + -> - next buffer
-	map <D-Right> :bn<cr>
-	vmap <D-Right> <esc>:bn<cr>i
-	imap <D-Right> <esc>:bn<cr>i
-endif
