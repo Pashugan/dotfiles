@@ -80,7 +80,7 @@ set rtp+=/usr/local/opt/fzf
 
 let g:polyglot_is_disabled = {}
 
-let g:ycm_clangd_binary_path = '/Library/Developer/CommandLineTools/usr/bin/clangd'
+let g:ycm_clangd_binary_path = trim(system('which clangd'))
 
 if has("gui_running")
 	if has("macunix")
