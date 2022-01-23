@@ -49,3 +49,9 @@
 [submodule "vim/pack/bundle/start/YouCompleteMe"]
 	path = vim/pack/bundle/start/YouCompleteMe
 	url = https://github.com/ycm-core/YouCompleteMe.git
+[submodule "firefox/user.js"]
+	path = firefox/user.js
+	url = https://github.com/arkenfox/user.js
+[submodule "private"]
+	path = private
+	url = git@github.com:Pashugan/dotfiles-private.git
