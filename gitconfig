@@ -10,5 +10,7 @@
 	rebase = true
 [fetch]
 	prune = true
+[log]
+	date = local
 [include]
 	path = ~/.gitconfig_local
