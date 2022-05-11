@@ -52,3 +52,6 @@
 [submodule "private"]
 	path = private
 	url = git@github.com:Pashugan/dotfiles-private.git
+[submodule "vim/pack/bundle/start/editorconfig-vim"]
+	path = vim/pack/bundle/start/editorconfig-vim
+	url = https://github.com/editorconfig/editorconfig-vim
