@@ -12,5 +12,7 @@
 	prune = true
 [log]
 	date = local
+[rerere]
+	enabled = true
 [include]
 	path = ~/.gitconfig_local
