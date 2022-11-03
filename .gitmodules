@@ -49,9 +49,6 @@
 [submodule "vim/pack/bundle/start/YouCompleteMe"]
 	path = vim/pack/bundle/start/YouCompleteMe
 	url = https://github.com/ycm-core/YouCompleteMe.git
-[submodule "private"]
-	path = private
-	url = git@github.com:Pashugan/dotfiles-private.git
 [submodule "vim/pack/bundle/start/editorconfig-vim"]
 	path = vim/pack/bundle/start/editorconfig-vim
 	url = https://github.com/editorconfig/editorconfig-vim
