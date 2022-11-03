@@ -49,7 +49,7 @@ if has("gui_running")
 	if has("macunix")
 		set guifont=JetBrains\ Mono:h20
 	elseif has("gui_gtk3")
-		set guifont=JetBrains\ Mono\ 12
+		set guifont=JetBrains\ Mono\ 20
 	endif
 
 	" Cmd + <- - previous buffer
