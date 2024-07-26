@@ -1,3 +1,4 @@
+set -o vi
 ulimit -n 2048
 
 bindkey '\e[H' beginning-of-line
