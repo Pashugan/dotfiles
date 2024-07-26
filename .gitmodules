@@ -52,3 +52,12 @@
 [submodule "vim/pack/bundle/start/editorconfig-vim"]
 	path = vim/pack/bundle/start/editorconfig-vim
 	url = https://github.com/editorconfig/editorconfig-vim
+[submodule "vim/pack/bundle/start/vim-illuminate"]
+	path = vim/pack/bundle/start/vim-illuminate
+	url = https://github.com/RRethy/vim-illuminate.git
+[submodule "vim/pack/bundle/start/vim-rooter"]
+	path = vim/pack/bundle/start/vim-rooter
+	url = https://github.com/airblade/vim-rooter.git
+[submodule "vim/pack/bundle/start/nerdtree"]
+	path = vim/pack/bundle/start/nerdtree
+	url = https://github.com/preservim/nerdtree.git
