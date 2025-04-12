@@ -1,5 +1,6 @@
 set -o vi
 ulimit -n 2048
+HISTSIZE=2000
 
 bindkey '\e[H' beginning-of-line
 bindkey '\e[F' end-of-line
