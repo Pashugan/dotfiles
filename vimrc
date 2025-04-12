@@ -45,6 +45,10 @@ nmap <F8> :TagbarToggle<cr>
 set wildmode=longest,list,full
 set wildignore+=*/.git/*,*/.hg/*,*/.svn/*
 
+if has("cscope") && executable("cscope")
+	set cscopetag
+endif
+
 if has("gui_running")
 	if has("macunix")
 		set guifont=JetBrains\ Mono:h20
@@ -70,8 +74,14 @@ let g:netrw_banner = 0
 let g:netrw_altv = 1
 let g:netrw_winsize = 20
 
-let g:gutentags_ctags_exclude = ['README']
+let g:gutentags_modules = ['ctags', 'gtags_cscope']
+let g:gutentags_ctags_executable = 'uctags'
+" let g:gutentags_gtags_executable = $HOME.'/src/global/gtags/gtags'
+" let g:gutentags_gtags_cscope_executable = $HOME.'/src/global/gtags-cscope/gtags-cscope'
+let g:gutentags_project_root = ['.root']
 let g:gutentags_cache_dir = $HOME.'/.cache/gutentags'
+let g:gutentags_ctags_exclude = ['README']
+let g:gutentags_plus_switch = 1
 
 let g:ctrlp_working_path_mode = 'ra'
 let g:ctrlp_lazy_update = 1

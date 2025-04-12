@@ -61,3 +61,6 @@
 [submodule "vim/pack/bundle/start/nerdtree"]
 	path = vim/pack/bundle/start/nerdtree
 	url = https://github.com/preservim/nerdtree.git
+[submodule "vim/pack/bundle/start/gutentags-plus"]
+	path = vim/pack/bundle/start/gutentags-plus
+	url = https://github.com/skywind3000/gutentags_plus
