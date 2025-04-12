@@ -103,3 +103,29 @@ endif
 let g:polyglot_is_disabled = {}
 
 let g:ycm_clangd_binary_path = trim(system('which clangd'))
+set completeopt-=preview
+set completeopt+=popup
+
+set spellfile=/Users/pknoblokh/.vimspell.utf8.add
+set spell spelllang=en_us
+
+let g:go_auto_type_info = 1
+let g:go_updatetime = 100
+let g:go_fold_enable = ['block', 'import', 'varconst', 'package_comment']
+let g:go_highlight_extra_types = 1
+let g:go_highlight_function_parameters = 1
+let g:go_highlight_function_calls = 1
+let g:go_highlight_types = 1
+let g:go_highlight_fields = 1
+let g:go_highlight_string_spellcheck = 1
+
+let g:rooter_patterns = ['.git']
+
+let g:airline#extensions#fzf#enabled = 1
+let g:airline#extensions#gutentags#enabled = 1
+let g:airline#extensions#hunks#enabled = 1
+let g:airline#extensions#tagbar#enabled = 1
+let g:airline#extensions#ycm#enabled = 1
+let g:airline#extensions#nerdtree_statusline = 1
+
+map <Leader>r :NERDTreeFind<CR>
