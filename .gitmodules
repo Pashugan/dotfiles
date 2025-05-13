@@ -1,65 +1,65 @@
 [submodule "vim/pack/bundle/start/molokai"]
-	path = vim/pack/bundle/start/molokai
+	path = vim/dot-vim/pack/bundle/start/molokai
 	url = https://github.com/tomasr/molokai.git
 [submodule "vim/pack/bundle/start/vim-sensible"]
-	path = vim/pack/bundle/start/vim-sensible
+	path = vim/dot-vim/pack/bundle/start/vim-sensible
 	url = https://github.com/tpope/vim-sensible.git
 [submodule "vim/pack/bundle/start/vim-gutentags"]
-	path = vim/pack/bundle/start/vim-gutentags
+	path = vim/dot-vim/pack/bundle/start/vim-gutentags
 	url = https://github.com/ludovicchabant/vim-gutentags.git
 [submodule "vim/pack/bundle/start/tagbar"]
-	path = vim/pack/bundle/start/tagbar
+	path = vim/dot-vim/pack/bundle/start/tagbar
 	url = https://github.com/majutsushi/tagbar.git
 [submodule "vim/pack/bundle/start/bufexplorer"]
-	path = vim/pack/bundle/start/bufexplorer
+	path = vim/dot-vim/pack/bundle/start/bufexplorer
 	url = https://github.com/jlanzarotta/bufexplorer.git
 [submodule "vim/pack/bundle/start/ctrlp"]
-	path = vim/pack/bundle/start/ctrlp
+	path = vim/dot-vim/pack/bundle/start/ctrlp
 	url = https://github.com/ctrlpvim/ctrlp.vim.git
 [submodule "vim/pack/bundle/start/ack"]
-	path = vim/pack/bundle/start/ack
+	path = vim/dot-vim/pack/bundle/start/ack
 	url = https://github.com/mileszs/ack.vim.git
 [submodule "vim/pack/bundle/start/vim-airline"]
-	path = vim/pack/bundle/start/vim-airline
+	path = vim/dot-vim/pack/bundle/start/vim-airline
 	url = https://github.com/vim-airline/vim-airline.git
 [submodule "vim/pack/bundle/start/vim-go"]
-	path = vim/pack/bundle/start/vim-go
+	path = vim/dot-vim/pack/bundle/start/vim-go
 	url = https://github.com/fatih/vim-go.git
 [submodule "vim/pack/bundle/start/vim-polyglot"]
-	path = vim/pack/bundle/start/vim-polyglot
+	path = vim/dot-vim/pack/bundle/start/vim-polyglot
 	url = https://github.com/sheerun/vim-polyglot.git
 [submodule "vim/pack/bundle/start/terminus"]
-	path = vim/pack/bundle/start/terminus
+	path = vim/dot-vim/pack/bundle/start/terminus
 	url = https://github.com/wincent/terminus.git
 [submodule "vim/pack/bundle/start/vim-startify"]
-	path = vim/pack/bundle/start/vim-startify
+	path = vim/dot-vim/pack/bundle/start/vim-startify
 	url = https://github.com/mhinz/vim-startify.git
 [submodule "vim/pack/bundle/start/vim-signify"]
-	path = vim/pack/bundle/start/vim-signify
+	path = vim/dot-vim/pack/bundle/start/vim-signify
 	url = https://github.com/mhinz/vim-signify.git
 [submodule "vim/pack/bundle/start/vim-bbye"]
-	path = vim/pack/bundle/start/vim-bbye
+	path = vim/dot-vim/pack/bundle/start/vim-bbye
 	url = https://github.com/moll/vim-bbye.git
 [submodule "vim/pack/bundle/start/fzf.vim"]
-	path = vim/pack/bundle/start/fzf.vim
+	path = vim/dot-vim/pack/bundle/start/fzf.vim
 	url = https://github.com/junegunn/fzf.vim.git
 [submodule "vim/pack/bundle/start/vim-commentary"]
-	path = vim/pack/bundle/start/vim-commentary
+	path = vim/dot-vim/pack/bundle/start/vim-commentary
 	url = https://github.com/tpope/vim-commentary.git
 [submodule "vim/pack/bundle/start/YouCompleteMe"]
-	path = vim/pack/bundle/start/YouCompleteMe
+	path = vim/dot-vim/pack/bundle/start/YouCompleteMe
 	url = https://github.com/ycm-core/YouCompleteMe.git
 [submodule "vim/pack/bundle/start/editorconfig-vim"]
-	path = vim/pack/bundle/start/editorconfig-vim
+	path = vim/dot-vim/pack/bundle/start/editorconfig-vim
 	url = https://github.com/editorconfig/editorconfig-vim
 [submodule "vim/pack/bundle/start/vim-illuminate"]
-	path = vim/pack/bundle/start/vim-illuminate
+	path = vim/dot-vim/pack/bundle/start/vim-illuminate
 	url = https://github.com/RRethy/vim-illuminate.git
 [submodule "vim/pack/bundle/start/vim-rooter"]
-	path = vim/pack/bundle/start/vim-rooter
+	path = vim/dot-vim/pack/bundle/start/vim-rooter
 	url = https://github.com/airblade/vim-rooter.git
 [submodule "vim/pack/bundle/start/nerdtree"]
-	path = vim/pack/bundle/start/nerdtree
+	path = vim/dot-vim/pack/bundle/start/nerdtree
 	url = https://github.com/preservim/nerdtree.git
 [submodule "vim/pack/bundle/start/gutentags-plus"]
 	path = vim/pack/bundle/start/gutentags-plus
