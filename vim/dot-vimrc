@@ -102,7 +102,6 @@ endif
 
 let g:polyglot_is_disabled = {}
 
-let g:ycm_clangd_binary_path = trim(system('which clangd'))
 set completeopt-=preview
 set completeopt+=popup
 
@@ -125,7 +124,6 @@ let g:airline#extensions#fzf#enabled = 1
 let g:airline#extensions#gutentags#enabled = 1
 let g:airline#extensions#hunks#enabled = 1
 let g:airline#extensions#tagbar#enabled = 1
-let g:airline#extensions#ycm#enabled = 1
 let g:airline#extensions#nerdtree_statusline = 1
 
 map <Leader>r :NERDTreeFind<CR>
