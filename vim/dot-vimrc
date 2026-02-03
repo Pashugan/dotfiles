@@ -126,4 +126,8 @@ let g:airline#extensions#hunks#enabled = 1
 let g:airline#extensions#tagbar#enabled = 1
 let g:airline#extensions#nerdtree_statusline = 1
 
+let NERDTreeIgnore = ['\.o$']
+let NERDTreeShowHidden = 1
+let NERDTreeMinimalMenu = 1
+
 map <Leader>r :NERDTreeFind<CR>
