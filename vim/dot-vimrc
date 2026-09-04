@@ -100,6 +100,12 @@ endif
 " vim-bbye mappings
 :nnoremap <Leader>q :Bdelete<CR>
 
+" paste
+set clipboard=unnamedplus
+nnoremap <C-S-v> "+p
+inoremap <C-S-v> <C-r>+
+cnoremap <C-S-v> <C-r>+
+
 let g:polyglot_is_disabled = {}
 
 set completeopt-=preview
