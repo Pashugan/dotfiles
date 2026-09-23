@@ -16,5 +16,7 @@
 	date = local
 [rerere]
 	enabled = true
+[worktree]
+	useRelativePaths = true
 [include]
 	path = ~/.gitconfig_local
