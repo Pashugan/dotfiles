@@ -1,6 +1,6 @@
 colors molokai
 
-set guioptions+=M
+"set guioptions+=M
 set encoding=utf8
 set nocompatible
 set mouse=a
@@ -55,7 +55,7 @@ if has("gui_running")
 	elseif has("bsd")
 		set guifont=JetBrains\ Mono\ 12
 	elseif has("gui_gtk3")
-		set guifont=JetBrains\ Mono\ 20
+		set guifont=JetBrains\ Mono\ NL\ 14
 	endif
 
 	" Cmd + <- - previous buffer
@@ -77,9 +77,6 @@ let g:netrw_altv = 1
 let g:netrw_winsize = 20
 
 let g:gutentags_modules = ['ctags', 'gtags_cscope']
-let g:gutentags_ctags_executable = 'uctags'
-" let g:gutentags_gtags_executable = $HOME.'/src/global/gtags/gtags'
-" let g:gutentags_gtags_cscope_executable = $HOME.'/src/global/gtags-cscope/gtags-cscope'
 let g:gutentags_project_root = ['.root']
 let g:gutentags_cache_dir = $HOME.'/.cache/gutentags'
 let g:gutentags_ctags_exclude = ['README']
